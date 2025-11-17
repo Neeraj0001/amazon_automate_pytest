@@ -10,13 +10,13 @@ class TestAmazon:
 
     def test_01_search_product(self, driver):
         logger.info("\n" + "="*80)
-        logger.info("TEST CASE 1: Search for iPhone 14")
+        logger.info("TEST CASE 1: Search for iPhone 17")
         logger.info("="*80)
 
         home_page = AmazonHomePage(driver)
         results_page = AmazonSearchResultsPage(driver)
 
-        home_page.search_product("iphone 14")
+        home_page.search_product("iphone 17")
 
         assert results_page.get_results_count() > 0, "No results found"
         assert results_page.has_text_in_results("iPhone"), "iPhone not in results"

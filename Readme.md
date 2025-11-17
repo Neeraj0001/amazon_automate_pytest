@@ -17,7 +17,7 @@ pytest test_search.py -v
 
 ## Test Cases
 
-- test_01_search_product - Search for iPhone 14
+- test_01_search_product - Search for iPhone 17
 - test_02_apply_filter - Apply HP filter on laptops
 - test_03_validate_product_details - Verify product title, price, rating
 - test_04_add_to_cart - Add product to cart
