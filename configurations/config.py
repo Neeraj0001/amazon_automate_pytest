@@ -8,9 +8,9 @@ class Config:
     config = configparser.RawConfigParser()
     config.read(CONFIG_FILE)
 
-    SCREENSHOTS_DIR = BASE_DIR / "screenshots2"
-    LOGS_DIR = BASE_DIR / "logs2"
-    REPORTS_DIR = BASE_DIR / "reports2"
+    SCREENSHOTS_DIR = BASE_DIR / "screenshots"
+    LOGS_DIR = BASE_DIR / "logs"
+    REPORTS_DIR = BASE_DIR / "reports"
 
     SCREENSHOTS_DIR.mkdir(exist_ok=True)
     LOGS_DIR.mkdir(exist_ok=True)

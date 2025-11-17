@@ -1,6 +1,6 @@
 # Amazon Automation - PyTest + Selenium
 
-Automated testing framework for Amazon India using Selenium WebDriver, PyTest, and Page Object Model (POM).
+Automated testing framework for Amazon using Selenium, PyTest, and Page Object Model (POM).
 
 ## Quick Start
 
@@ -13,31 +13,6 @@ pip install -r requirements.txt
 ```bash
 cd test_case
 pytest test_search.py -v
-```
-
-## Project Structure
-
-```
-selenium/
-├── configuration/
-│   ├── config.ini
-│   └── config.py
-├── page_object/
-│   ├── home_page.py
-│   ├── search_results_page.py
-│   ├── product_page.py
-│   └── cart_page.py
-├── test_case/
-│   ├── conftest.py
-│   ├── pytest.ini
-│   └── test_search.py
-├── utilities/
-│   ├── base_page.py
-│   └── loggers.py
-├── logs/
-├── screenshots/
-├── reports/
-└── requirements.txt
 ```
 
 ## Test Cases
